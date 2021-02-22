@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/etc/sensor_def_hh.conf:system/etc/sensor_def_hh.conf \
     vendor/lge/hammerhead/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/lge/hammerhead/proprietary/framework/serviceitems.jar:system/framework/serviceitems.jar \
-    vendor/lge/hammerhead/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
     vendor/lge/hammerhead/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/hammerhead/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/hammerhead/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
@@ -139,6 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -159,6 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -169,6 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
