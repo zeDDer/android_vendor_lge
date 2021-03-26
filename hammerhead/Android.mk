@@ -22,58 +22,63 @@ ifeq ($(TARGET_DEVICE),hammerhead)
 include $(CLEAR_VARS)
 LOCAL_MODULE := UpdateSetting
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/app/UpdateSetting/UpdateSetting.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/UpdateSetting/UpdateSetting.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/app/shutdownlistener/shutdownlistener.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/shutdownlistener/shutdownlistener.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := OmaDmclient
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/priv-app/OmaDmclient/OmaDmclient.apk
+LOCAL_SRC_FILES := proprietary/vendor/priv-app/OmaDmclient/OmaDmclient.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := SprintHiddenMenu
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/priv-app/SprintHiddenMenu/SprintHiddenMenu.apk
+LOCAL_SRC_FILES := proprietary/vendor/priv-app/SprintHiddenMenu/SprintHiddenMenu.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 endif
