@@ -139,6 +139,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/libplayback_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libplayback_adreno.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/hw/gatekeeper.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8974.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/hw/keystore.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8974.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/hw/sensors.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8974.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libAKM8963.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAKM8963.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
